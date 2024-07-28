@@ -1,0 +1,2 @@
+# various string functions
+
