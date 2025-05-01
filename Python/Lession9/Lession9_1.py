@@ -36,6 +36,31 @@ print("After inserting at specific index updated lists",lists)
 lists.pop(1)
 print("after removing element via pop methods ",lists)
 
+# Lists extend methods
+lists1 = [2,1,3,4]
+lists2 = [1,2,3,4,5]
+print("lists1 ", lists1)
+print("lists2 ", lists2)
+# extend the lists1
+lists1.extend(lists2)
+print("updated lists1 is ", lists1)
+lists2.sort(reverse = True)
+print("Reverse sorted lists2 is ", lists2)
+#delete method
+del lists2[0]
+print("after Deleted 1st element from the lists2 ", lists2)
+#insert at index 
+lists2.insert(0, 5)
+print("inderted element at index 0 updated lists is ", lists2)
+#remove method remove element from lists
+lists2.remove(1)
+print("Updated lists2 after removing elements from lists ",lists2)
+
+# clear methods clear and empty lists
+lists1 = [2,1,3]
+print("lists1 is: ", lists1)
+lists1.clear()
+print("After clearing lists: ", lists1)
 
 
 
