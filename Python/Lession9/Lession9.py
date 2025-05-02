@@ -36,7 +36,7 @@ student[0] = "Heena"
 print("Changed list index ",student[0])
 
 #will give error as index out of range
-print(student[5])
+#print(student[5])
 
 
 #strings are the immutable and lists are mutables
