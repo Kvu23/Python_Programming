@@ -13,7 +13,8 @@ print(my_variable)
 my_variable = True
 print(my_variable)
 my_variable = None
-print(type(my_variable))
+# print(type(my_variable))
+print('Data type of my_variable is:', type(my_variable))
 
 
 
