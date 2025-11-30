@@ -16,5 +16,11 @@ my_variable = None
 # print(type(my_variable))
 print('Data type of my_variable is:', type(my_variable))
 
+num1 = int(input('Enter first number: '))
+num2 = int(input('Enter second number: '))
+
+result = (num1) + (num2)
+print('The addition of two numbers', num1, 'and ',num2, 'is: ', result)
+
 
 
