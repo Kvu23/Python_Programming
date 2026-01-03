@@ -12,5 +12,8 @@ for i in range(1,i+1):
     elif i == 5:
         print("Continuing the loop at i =", i)
         continue
+    elif i == 9:
+        print("Skipping the loop at i =", i)
+        pass
     print("Current value of i:", i)
 print("Loop ended.")
