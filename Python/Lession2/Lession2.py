@@ -1,34 +1,34 @@
 #print arithmetic operations of 2 numbers
 
-num1 = 3
-num2 = 20
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 # Arithmetic operators
-print(num1+num2)
-print(num1-num2)
-print(num1*num2)
-print(num2/num1)
-print(num1//num2)
-print(num2 % num1)
-print(num2 ** num1)
+print(f"Addition: {num1 + num2}")
+print(f"Subtraction: {num1 - num2}")
+print(f"Multiplication: {num1 * num2}")
+print(f"Division: {num2 / num1}")
+print(f"Floor Division: {num1 // num2}")
+print(f"Modulus: {num2 % num1}")
+print(f"Exponentiation: {num2 ** num1}")
 
 # Relational operators
-print(num1 == num2)
-print(num1 != num2)
-print(num1 >= num2)
-print(num1 > num2)
-print(num1 <= num2)
-print(num1 < num2)
+print(f"Equal: {num1 == num2}")
+print(f"Not Equal: {num1 != num2}")
+print(f"Greater than or equal: {num1 >= num2}")
+print(f"Greater than: {num1 > num2}")
+print(f"Less than or equal: {num1 <= num2}")
+print(f"Less than: {num1 < num2}")
 
 #Assignment operators
 num = 10
 num **= 5
-print('num:', num)
+print(f'num: {num}')
 
 #Logical not operators
-print(not False)
-print(not True)
-print(not (num2 > num1))
+print(f'not False: {not False}')
+print(f'not True: {not True}')
+print(f'not (num2 > num1): {not (num2 > num1)}')
 print(not (num1 > num2))
 
 # and operator
