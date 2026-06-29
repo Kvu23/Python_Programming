@@ -47,6 +47,7 @@ if(age >= 18):
         print("can not drive")
     else:    
         print("Can drive")
+        print("Thank you")
 else:
     print("Can not drive")
     

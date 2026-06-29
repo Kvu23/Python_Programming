@@ -27,3 +27,16 @@ while True:
             break;
 
 # End of Lession13_1.py
+
+
+number = int(input("Enter a number between 1 and 10: "))
+
+match number:
+    case 1:
+        print("you won a Eraser")
+    case 3:
+        print("you won a book")
+    case 6:
+        print("you won a pen")
+    case _:
+        print("you won nothing")
