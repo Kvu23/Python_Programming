@@ -21,8 +21,29 @@ print(f"Less than or equal: {num1 <= num2}")
 print(f"Less than: {num1 < num2}")
 
 #Assignment operators
-num = 10
+num = 100
 num **= 5
+print(f'num: {num}')
+num = 100
+num //= 5
+print(f'num: {num}')
+num = 100
+num %= 5
+print(f'num: {num}')
+num = 100
+num /= 5
+print(f'num: {num}')
+num = 100
+num *= 5
+print(f'num: {num}')
+num = 100
+num -= 5
+print(f'num: {num}')
+num = 100
+num += 5
+print(f'num: {num}')
+num = 100
+num *= 5
 print(f'num: {num}')
 
 #Logical not operators
