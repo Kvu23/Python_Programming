@@ -22,12 +22,13 @@ print(str)
 print(str.replace("kaushik","Heena"))
 
 #find functions
-print("index is:- ",str.find("e"))
-print("index is:-", str.find("is"))
+print("index is: ",str.find("e"))
+print("index is:", str.find("is"))
 
 #count functions
 
 print("count of e is ",str.count("e"))
 print("count of a is ",str.count("a"))
 print("count of is is ",str.count("is"))
+
 
