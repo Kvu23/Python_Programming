@@ -12,6 +12,8 @@ print("Fibonacci of 5 is:", fibonacci(5))
 
 #program to find factorial of a number using recursion
 def factorial(n):
+    '''Calculate the factorial of a number using recursion.'''
+    ''' return 1 for the base case if number is 0, otherwise return n multiplied by the factorial of n-1.'''
     if n == 0:
         return 1
     else:
