@@ -6,5 +6,5 @@ print("name length is ",len(name))
 
 #WAP to find $ character in string
 str = " i am multi millionoiare $ persion $$$"
-#print(str.find('$'))
+print(str.find('$'))
 print("number of times $ occurs",str.count('$'))
