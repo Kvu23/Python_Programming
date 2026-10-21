@@ -10,7 +10,7 @@ def run_calculator():
         #get the choice
         choice = interface.get_user_choice()
         if choice == 5:
-            print("\nThank you for choosing our application")
+            print("\nThank you for choosing Sample calculator application")
             break
 
         if choice not in [1,2,3,4]:

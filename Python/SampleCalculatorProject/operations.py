@@ -12,6 +12,7 @@ def multiplication(a,b):
 #this functions provides division of 2 numbers
 def division(a,b):
     if b == 0:
-        return 0
+        print("\nDivision by zero not possible")
+        return None
     else:
         return a/b
