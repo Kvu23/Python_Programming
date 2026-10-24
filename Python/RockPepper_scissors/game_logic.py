@@ -2,9 +2,11 @@
 
 def detect_winner(player_choice,computer_choice):
     #check for tie first
-    if computer_choice == player_choice:
+    result = (player_choice - computer_choice) % 3
+    if result == 0:
         return 0
-    elif (player_choice - computer_choice) % 3 == 1:
+    elif result == 1:
         return 1
-    elif (player_choice - computer_choice) % 3 == 2:
+    elif result == 2:
         return 2
+    return None
